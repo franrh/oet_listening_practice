@@ -2,7 +2,7 @@
   "name": "oet-listening-app",
   "private": true,
   "version": "1.0.0",
-  "description": "OET Nursing Listening Practice App – Universidad Anáhuac Online",
+  "description": "OET Nursing Listening Practice App – Anáhuac Online",
   "type": "module",
   "scripts": {
     "dev": "vite",
