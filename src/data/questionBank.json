@@ -1,0 +1,1766 @@
+{
+  "meta": {
+    "version": "1.0",
+    "totalScripts": 15,
+    "partA": { "count": 8, "questionType": "note_completion", "questionsPerScript": 12 },
+    "partB": { "count": 7, "questionType": "multiple_choice", "questionsPerScript": 6 },
+    "totalQuestions": 138,
+    "createdFor": "OET Nursing Listening Practice App"
+  },
+  "scripts": [
+    {
+      "id": "partA_01",
+      "title": "Post-Operative Pain Assessment",
+      "part": "A",
+      "audioFile": "partA_01_postop_pain.mp3",
+      "duration": "4:30",
+      "setting": "Hospital ward",
+      "speakers": {
+        "nurse": "Sarah (Registered Nurse)",
+        "patient": "Mr David Chen, 58 years old"
+      },
+      "scenario": "Post-operative assessment following right knee replacement surgery two days ago.",
+      "noteTemplate": {
+        "heading": "POST-OPERATIVE NURSING ASSESSMENT",
+        "subheading": "Patient: David Chen | DOB: [not given] | Ward: Orthopaedic",
+        "sections": [
+          {
+            "title": "Procedure",
+            "content": "Right knee replacement – Day 2 post-op"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "A01_Q01",
+          "number": 1,
+          "noteContext": "Overnight status: Patient reports poor sleep due to ___",
+          "answer": "pain",
+          "acceptableAnswers": ["pain", "severe pain", "rough pain overnight"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A01_Q02",
+          "number": 2,
+          "noteContext": "Pain at rest (current): ___ / 10",
+          "answer": "6",
+          "acceptableAnswers": ["6", "six"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A01_Q03",
+          "number": 3,
+          "noteContext": "Pain on movement: ___ / 10",
+          "answer": "8 or 9",
+          "acceptableAnswers": ["8 or 9", "8-9", "eight or nine", "8", "9"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A01_Q04",
+          "number": 4,
+          "noteContext": "Type of pain described: sharp, ___ pain around the knee",
+          "answer": "stabbing",
+          "acceptableAnswers": ["stabbing"],
+          "difficulty": "medium",
+          "listeningSkill": "specific vocabulary"
+        },
+        {
+          "id": "A01_Q05",
+          "number": 5,
+          "noteContext": "Current analgesia: Paracetamol 1g QDS + Oxycodone 5mg PRN. Patient took oxycodone at approximately ___",
+          "answer": "2 am",
+          "acceptableAnswers": ["2 am", "2 in the morning", "two in the morning", "2:00 am", "two am"],
+          "difficulty": "medium",
+          "listeningSkill": "time recognition"
+        },
+        {
+          "id": "A01_Q06",
+          "number": 6,
+          "noteContext": "Patient concern re analgesics: worried about ___ (family history – brother had problems)",
+          "answer": "addiction",
+          "acceptableAnswers": ["addiction", "dependence", "becoming addicted", "problems with medications", "dependency"],
+          "difficulty": "hard",
+          "listeningSkill": "inference"
+        },
+        {
+          "id": "A01_Q07",
+          "number": 7,
+          "noteContext": "Proposed pain management changes: Add anti-inflammatory + consider ___",
+          "answer": "nerve block",
+          "acceptableAnswers": ["nerve block", "a nerve block"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A01_Q08",
+          "number": 8,
+          "noteContext": "Nerve block: described as local ___ injection near knee nerves",
+          "answer": "anaesthetic",
+          "acceptableAnswers": ["anaesthetic", "anesthetic"],
+          "difficulty": "medium",
+          "listeningSkill": "medical terminology"
+        },
+        {
+          "id": "A01_Q09",
+          "number": 9,
+          "noteContext": "Swelling management: Ice pack applied – protocol: 20 min on, ___ min off",
+          "answer": "20",
+          "acceptableAnswers": ["20", "twenty"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A01_Q10",
+          "number": 10,
+          "noteContext": "Neurovascular obs: Toes – patient reports ___ sensation",
+          "answer": "tingling",
+          "acceptableAnswers": ["tingling", "tingly", "a bit tingly"],
+          "difficulty": "medium",
+          "listeningSkill": "specific vocabulary"
+        },
+        {
+          "id": "A01_Q11",
+          "number": 11,
+          "noteContext": "Circulation check: Pedal pulse – ___. Toes warm.",
+          "answer": "strong",
+          "acceptableAnswers": ["strong", "good and strong"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A01_Q12",
+          "number": 12,
+          "noteContext": "Nutritional status: Appetite ___. Nausea from anaesthetic has settled. Plan: refer to ___ if not improved by tomorrow.",
+          "answer": "poor / dietitian",
+          "acceptableAnswers": ["poor", "not great", "barely eating"],
+          "answerSecondBlank": "dietitian",
+          "acceptableAnswersSecondBlank": ["dietitian", "dietician"],
+          "difficulty": "medium",
+          "listeningSkill": "dual detail extraction"
+        }
+      ]
+    },
+    {
+      "id": "partA_02",
+      "title": "Newly Diagnosed Type 2 Diabetes",
+      "part": "A",
+      "audioFile": "partA_02_diabetes_new.mp3",
+      "duration": "5:00",
+      "setting": "Diabetes clinic",
+      "speakers": {
+        "nurse": "James (Diabetes Specialist Nurse)",
+        "patient": "Mrs Priya Kapoor, 52 years old"
+      },
+      "scenario": "First appointment following recent diagnosis of Type 2 diabetes from routine blood tests.",
+      "noteTemplate": {
+        "heading": "DIABETES SPECIALIST NURSE CONSULTATION",
+        "subheading": "Patient: Priya Kapoor | New diagnosis",
+        "sections": [
+          {
+            "title": "Referral",
+            "content": "GP referral – elevated blood glucose on routine blood tests"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "A02_Q01",
+          "number": 1,
+          "noteContext": "Patient's emotional state: Feeling ___ about diagnosis",
+          "answer": "scared",
+          "acceptableAnswers": ["scared", "quite scared", "frightened"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A02_Q02",
+          "number": 2,
+          "noteContext": "Family history concern: Mother had diabetes – complication: lost her ___",
+          "answer": "sight",
+          "acceptableAnswers": ["sight", "vision", "eyesight"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A02_Q03",
+          "number": 3,
+          "noteContext": "HbA1c result: ___ mmol/mol (normal <42; diagnostic threshold: ≥48)",
+          "answer": "58",
+          "acceptableAnswers": ["58", "fifty-eight"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A02_Q04",
+          "number": 4,
+          "noteContext": "Current lifestyle – Occupation: ___ work (sedentary)",
+          "answer": "office",
+          "acceptableAnswers": ["office", "office work", "desk"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A02_Q05",
+          "number": 5,
+          "noteContext": "Dietary advice given using the ___ method (plate divided into sections)",
+          "answer": "plate",
+          "acceptableAnswers": ["plate", "plate method"],
+          "difficulty": "medium",
+          "listeningSkill": "specific terminology"
+        },
+        {
+          "id": "A02_Q06",
+          "number": 6,
+          "noteContext": "Plate proportions: ½ non-starchy vegetables, ¼ ___, ¼ starchy carbohydrate",
+          "answer": "protein",
+          "acceptableAnswers": ["protein", "lean protein"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A02_Q07",
+          "number": 7,
+          "noteContext": "Sugar intake: Patient takes ___ sugars in chai tea",
+          "answer": "two",
+          "acceptableAnswers": ["2", "two"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A02_Q08",
+          "number": 8,
+          "noteContext": "Medication prescribed: ___ 500mg once daily with evening meal",
+          "answer": "metformin",
+          "acceptableAnswers": ["metformin"],
+          "difficulty": "easy",
+          "listeningSkill": "medical terminology"
+        },
+        {
+          "id": "A02_Q09",
+          "number": 9,
+          "noteContext": "Main side effect of metformin: ___ (mitigated by taking with food)",
+          "answer": "stomach upset",
+          "acceptableAnswers": ["stomach upset", "stomach problems", "GI upset", "upset stomach"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A02_Q10",
+          "number": 10,
+          "noteContext": "Exercise target: ___ minutes of moderate activity per week",
+          "answer": "150",
+          "acceptableAnswers": ["150", "one hundred and fifty"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A02_Q11",
+          "number": 11,
+          "noteContext": "Monitoring plan: HbA1c checks every ___ months initially",
+          "answer": "3",
+          "acceptableAnswers": ["3", "three"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A02_Q12",
+          "number": 12,
+          "noteContext": "Additional appointments arranged: eye screening, ___ check, blood tests (cholesterol & kidney), diabetes education group",
+          "answer": "foot",
+          "acceptableAnswers": ["foot", "foot check"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        }
+      ]
+    },
+    {
+      "id": "partA_03",
+      "title": "Paediatric Asthma Review",
+      "part": "A",
+      "audioFile": "partA_03_paediatric_asthma.mp3",
+      "duration": "4:30",
+      "setting": "Emergency department / paediatric ward",
+      "speakers": {
+        "nurse": "Emma (Respiratory Nurse Specialist)",
+        "patient": "Karen Morrison (mother of Lily, 7 years old)"
+      },
+      "scenario": "Review following admission for acute asthma exacerbation the previous night.",
+      "noteTemplate": {
+        "heading": "PAEDIATRIC RESPIRATORY NURSE ASSESSMENT",
+        "subheading": "Patient: Lily Morrison, 7 years | Parent: Karen Morrison",
+        "sections": [
+          {
+            "title": "Admission",
+            "content": "Acute asthma exacerbation – admitted via ambulance previous night"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "A03_Q01",
+          "number": 1,
+          "noteContext": "Events preceding attack: Lily had a ___ for a couple of days before the episode",
+          "answer": "cold",
+          "acceptableAnswers": ["cold", "runny nose", "bit of a cold"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A03_Q02",
+          "number": 2,
+          "noteContext": "Symptom onset: Coughing began during ___",
+          "answer": "dinner",
+          "acceptableAnswers": ["dinner", "evening meal"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A03_Q03",
+          "number": 3,
+          "noteContext": "Reliever inhaler given: ___ puffs initially, then another ___ puffs 20 minutes later",
+          "answer": "two / two",
+          "acceptableAnswers": ["2", "two"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A03_Q04",
+          "number": 4,
+          "noteContext": "Reason for calling ambulance: Child struggling to breathe + lips appeared ___",
+          "answer": "blue",
+          "acceptableAnswers": ["blue", "a bit blue", "bluish"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A03_Q05",
+          "number": 5,
+          "noteContext": "Preventer inhaler (brown): Prescribed ___ months ago but NOT used regularly",
+          "answer": "6",
+          "acceptableAnswers": ["6", "six"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A03_Q06",
+          "number": 6,
+          "noteContext": "Reason preventer not used: Child seemed ___ and resists taking it when not symptomatic",
+          "answer": "fine",
+          "acceptableAnswers": ["fine", "well", "okay"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A03_Q07",
+          "number": 7,
+          "noteContext": "Nurse's analogy for preventer: Compared to putting on ___ before going out in the sun",
+          "answer": "sunscreen",
+          "acceptableAnswers": ["sunscreen", "sun cream", "sunblock"],
+          "difficulty": "medium",
+          "listeningSkill": "analogy comprehension"
+        },
+        {
+          "id": "A03_Q08",
+          "number": 8,
+          "noteContext": "Spacer use: Patient has one at home but doesn't use it – says it's ___",
+          "answer": "babyish",
+          "acceptableAnswers": ["babyish", "for babies"],
+          "difficulty": "medium",
+          "listeningSkill": "specific vocabulary"
+        },
+        {
+          "id": "A03_Q09",
+          "number": 9,
+          "noteContext": "Written asthma action plan: Previously provided by ___ but now lost",
+          "answer": "GP",
+          "acceptableAnswers": ["GP", "the GP", "general practitioner", "doctor"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A03_Q10",
+          "number": 10,
+          "noteContext": "Action plan copies needed for: home and ___",
+          "answer": "school",
+          "acceptableAnswers": ["school", "her school"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A03_Q11",
+          "number": 11,
+          "noteContext": "Discharge plan: Expected to go home this ___",
+          "answer": "evening",
+          "acceptableAnswers": ["evening", "this evening"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A03_Q12",
+          "number": 12,
+          "noteContext": "Follow-up: GP appointment within the next ___",
+          "answer": "week",
+          "acceptableAnswers": ["week", "one week", "7 days"],
+          "difficulty": "easy",
+          "listeningSkill": "time recognition"
+        }
+      ]
+    },
+    {
+      "id": "partA_04",
+      "title": "Elderly Fall Risk Assessment",
+      "part": "A",
+      "audioFile": "partA_04_fall_risk.mp3",
+      "duration": "5:00",
+      "setting": "Patient's home (community visit)",
+      "speakers": {
+        "nurse": "Daniel (Community Nurse)",
+        "patient": "Mrs Margaret Thompson, 81 years old"
+      },
+      "scenario": "Home visit following GP referral after a fall two weeks ago. Daughter has concerns about safety.",
+      "noteTemplate": {
+        "heading": "COMMUNITY NURSING FALL RISK ASSESSMENT",
+        "subheading": "Patient: Margaret Thompson, 81 | Home visit",
+        "sections": [
+          {
+            "title": "Referral",
+            "content": "GP referral post-fall – daughter concerned about patient's safety living alone"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "A04_Q01",
+          "number": 1,
+          "noteContext": "Cause of fall: Foot caught on edge of ___ in kitchen",
+          "answer": "rug",
+          "acceptableAnswers": ["rug", "the rug", "a rug"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A04_Q02",
+          "number": 2,
+          "noteContext": "Injury sustained: Hit ___ on corner of table",
+          "answer": "hip",
+          "acceptableAnswers": ["hip", "her hip"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A04_Q03",
+          "number": 3,
+          "noteContext": "Time on floor before getting up: Approximately ___ minutes",
+          "answer": "20",
+          "acceptableAnswers": ["20", "twenty"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A04_Q04",
+          "number": 4,
+          "noteContext": "Daughter's suggestion: Wants patient to wear a personal ___ necklace",
+          "answer": "alarm",
+          "acceptableAnswers": ["alarm", "alert"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A04_Q05",
+          "number": 5,
+          "noteContext": "Medications (5): antihypertensive, diuretic, statin, arthritis medication, and ___",
+          "answer": "sleeping tablet",
+          "acceptableAnswers": ["sleeping tablet", "sleeping pill", "sleep medication", "sleeping medication"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A04_Q06",
+          "number": 6,
+          "noteContext": "Reason for insomnia: Since husband ___ (18 months ago)",
+          "answer": "passed away",
+          "acceptableAnswers": ["passed away", "passed", "died", "death"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A04_Q07",
+          "number": 7,
+          "noteContext": "Symptom reported: ___ when standing up (holds on to something until it passes)",
+          "answer": "dizziness",
+          "acceptableAnswers": ["dizziness", "lightheadedness", "dizzy", "lightheaded", "feeling lightheaded"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A04_Q08",
+          "number": 8,
+          "noteContext": "BP readings – Sitting: 148/82 | Standing: ___/70",
+          "answer": "118",
+          "acceptableAnswers": ["118"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A04_Q09",
+          "number": 9,
+          "noteContext": "Diagnosis suggested: Postural ___",
+          "answer": "hypotension",
+          "acceptableAnswers": ["hypotension"],
+          "difficulty": "hard",
+          "listeningSkill": "medical terminology"
+        },
+        {
+          "id": "A04_Q10",
+          "number": 10,
+          "noteContext": "Last eye test: Approximately ___ years ago",
+          "answer": "2",
+          "acceptableAnswers": ["2", "two"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A04_Q11",
+          "number": 11,
+          "noteContext": "Home hazards identified: Kitchen rug + loose ___ in living room",
+          "answer": "cables",
+          "acceptableAnswers": ["cables", "wires", "cords"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A04_Q12",
+          "number": 12,
+          "noteContext": "Referrals planned: Home safety assessment, ___ (for balance and strength exercises), personal alarm",
+          "answer": "physiotherapist",
+          "acceptableAnswers": ["physiotherapist", "physio", "physiotherapy", "physical therapist"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        }
+      ]
+    },
+    {
+      "id": "partA_05",
+      "title": "Prenatal Care – Gestational Diabetes Screening",
+      "part": "A",
+      "audioFile": "partA_05_gestational_diabetes.mp3",
+      "duration": "4:45",
+      "setting": "Antenatal clinic",
+      "speakers": {
+        "nurse": "Midwife (unnamed)",
+        "patient": "Maria Santos, 34 years old, 28 weeks pregnant"
+      },
+      "scenario": "Antenatal appointment to discuss glucose tolerance test results showing gestational diabetes. Second pregnancy.",
+      "noteTemplate": {
+        "heading": "ANTENATAL CONSULTATION",
+        "subheading": "Patient: Maria Santos, 34 | Gestation: 28 weeks | G2P1",
+        "sections": [
+          {
+            "title": "Reason for visit",
+            "content": "Review glucose tolerance test results"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "A05_Q01",
+          "number": 1,
+          "noteContext": "Patient's current symptoms: Feeling very ___",
+          "answer": "tired",
+          "acceptableAnswers": ["tired", "exhausted", "fatigued", "really tired"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A05_Q02",
+          "number": 2,
+          "noteContext": "Gestational diabetes prevalence: Affects approximately 1 in ___ pregnancies",
+          "answer": "20",
+          "acceptableAnswers": ["20", "twenty"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A05_Q03",
+          "number": 3,
+          "noteContext": "Risk factors identified: Age >30, family history (father has Type 2 diabetes), BMI at booking: ___",
+          "answer": "31",
+          "acceptableAnswers": ["31", "thirty-one"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A05_Q04",
+          "number": 4,
+          "noteContext": "Blood glucose monitoring frequency: ___ times per day",
+          "answer": "4",
+          "acceptableAnswers": ["4", "four"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A05_Q05",
+          "number": 5,
+          "noteContext": "Target blood glucose – Fasting: below ___",
+          "answer": "5.3",
+          "acceptableAnswers": ["5.3", "five point three"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A05_Q06",
+          "number": 6,
+          "noteContext": "Target blood glucose – 1 hour post-meal: below ___",
+          "answer": "7.8",
+          "acceptableAnswers": ["7.8", "seven point eight"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A05_Q07",
+          "number": 7,
+          "noteContext": "Dietary advice: Switch from white to ___ rice, reduce portion to fist-sized",
+          "answer": "brown",
+          "acceptableAnswers": ["brown", "brown rice"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A05_Q08",
+          "number": 8,
+          "noteContext": "Referral to ___ for culturally appropriate dietary advice",
+          "answer": "dietitian",
+          "acceptableAnswers": ["dietitian", "dietician", "a dietitian"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A05_Q09",
+          "number": 9,
+          "noteContext": "If diet fails after ___ weeks: Consider medication (metformin or insulin)",
+          "answer": "2",
+          "acceptableAnswers": ["2", "two"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A05_Q10",
+          "number": 10,
+          "noteContext": "Appointment frequency increased to every ___ weeks",
+          "answer": "2",
+          "acceptableAnswers": ["2", "two"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A05_Q11",
+          "number": 11,
+          "noteContext": "Additional growth scans planned at ___ and 36 weeks",
+          "answer": "32",
+          "acceptableAnswers": ["32", "thirty-two"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A05_Q12",
+          "number": 12,
+          "noteContext": "Post-delivery: Blood sugar tested ___ to ___ weeks after birth; annual screening recommended due to increased risk of Type 2 diabetes",
+          "answer": "6 to 8",
+          "acceptableAnswers": ["6 to 8", "six to eight", "6-8"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        }
+      ]
+    },
+    {
+      "id": "partA_06",
+      "title": "Cardiac Rehabilitation Assessment",
+      "part": "A",
+      "audioFile": "partA_06_cardiac_rehab.mp3",
+      "duration": "5:00",
+      "setting": "Cardiac rehabilitation clinic",
+      "speakers": {
+        "nurse": "Claire (Cardiac Rehabilitation Nurse)",
+        "patient": "Mr Robert Walsh, 63 years old"
+      },
+      "scenario": "Initial cardiac rehab assessment, 3 weeks post-MI with PCI and stent insertion.",
+      "noteTemplate": {
+        "heading": "CARDIAC REHABILITATION INITIAL ASSESSMENT",
+        "subheading": "Patient: Robert Walsh, 63 | 3 weeks post-MI",
+        "sections": [
+          {
+            "title": "Cardiac event",
+            "content": "MI + PCI with stent insertion – 3 weeks ago"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "A06_Q01",
+          "number": 1,
+          "noteContext": "Patient's main concern: Intense ___ about recurrence",
+          "answer": "fear",
+          "acceptableAnswers": ["fear", "anxiety", "scared", "scared stiff"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A06_Q02",
+          "number": 2,
+          "noteContext": "Chest twinges: Type of pain – ___, related to movement (likely musculoskeletal)",
+          "answer": "sharp",
+          "acceptableAnswers": ["sharp"],
+          "difficulty": "easy",
+          "listeningSkill": "specific vocabulary"
+        },
+        {
+          "id": "A06_Q03",
+          "number": 3,
+          "noteContext": "Original MI pain described as: Heavy ___",
+          "answer": "pressure",
+          "acceptableAnswers": ["pressure"],
+          "difficulty": "medium",
+          "listeningSkill": "specific vocabulary"
+        },
+        {
+          "id": "A06_Q04",
+          "number": 4,
+          "noteContext": "Current activity level: Walks to end of ___ and back only",
+          "answer": "street",
+          "acceptableAnswers": ["street", "the street"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A06_Q05",
+          "number": 5,
+          "noteContext": "Previous hobbies stopped: ___ (twice weekly) and walking the dog",
+          "answer": "golf",
+          "acceptableAnswers": ["golf", "playing golf"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A06_Q06",
+          "number": 6,
+          "noteContext": "Rehab programme: Runs ___ times per week for ___ weeks",
+          "answer": "twice / eight",
+          "acceptableAnswers": ["twice", "2", "two"],
+          "answerSecondBlank": "8",
+          "acceptableAnswersSecondBlank": ["8", "eight"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A06_Q07",
+          "number": 7,
+          "noteContext": "Fitness benchmark for resuming sexual activity: Able to climb ___ flights of stairs without symptoms",
+          "answer": "two",
+          "acceptableAnswers": ["2", "two"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A06_Q08",
+          "number": 8,
+          "noteContext": "Medications (5): aspirin, second antiplatelet, statin, ___, and ACE inhibitor",
+          "answer": "beta-blocker",
+          "acceptableAnswers": ["beta-blocker", "beta blocker"],
+          "difficulty": "medium",
+          "listeningSkill": "medical terminology"
+        },
+        {
+          "id": "A06_Q09",
+          "number": 9,
+          "noteContext": "Beta-blocker side effect reported: ___",
+          "answer": "fatigue",
+          "acceptableAnswers": ["fatigue", "tiredness", "exhaustion", "exhausted", "feeling exhausted"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A06_Q10",
+          "number": 10,
+          "noteContext": "Critical medication warning: Never stop ___ without medical advice (protects stent)",
+          "answer": "antiplatelet",
+          "acceptableAnswers": ["antiplatelet", "the antiplatelet", "antiplatelet medication"],
+          "difficulty": "hard",
+          "listeningSkill": "medical terminology"
+        },
+        {
+          "id": "A06_Q11",
+          "number": 11,
+          "noteContext": "Occupation: ___ (desk-based but stressful)",
+          "answer": "project manager",
+          "acceptableAnswers": ["project manager"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A06_Q12",
+          "number": 12,
+          "noteContext": "Return to work plan: Phased return suggested, starting ___",
+          "answer": "part-time",
+          "acceptableAnswers": ["part-time", "part time"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        }
+      ]
+    },
+    {
+      "id": "partA_07",
+      "title": "Mental Health Assessment – Post-Natal Depression",
+      "part": "A",
+      "audioFile": "partA_07_postnatal_depression.mp3",
+      "duration": "4:45",
+      "setting": "Patient's home (health visitor appointment)",
+      "speakers": {
+        "nurse": "Health Visitor (unnamed)",
+        "patient": "Natalie Barnes, 29 years old, first-time mother"
+      },
+      "scenario": "Routine 6-week postnatal check. Health visitor identifies signs of postnatal depression.",
+      "noteTemplate": {
+        "heading": "POSTNATAL HEALTH VISITOR ASSESSMENT",
+        "subheading": "Patient: Natalie Barnes, 29 | Baby: Oliver, 6 weeks | G1P1",
+        "sections": [
+          {
+            "title": "Visit type",
+            "content": "Routine 6-week postnatal check"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "A07_Q01",
+          "number": 1,
+          "noteContext": "Baby Oliver: Mother reports he is growing well and is a ___ baby",
+          "answer": "good",
+          "acceptableAnswers": ["good"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A07_Q02",
+          "number": 2,
+          "noteContext": "Emotional state: Describes feeling like she's ___",
+          "answer": "drowning",
+          "acceptableAnswers": ["drowning"],
+          "difficulty": "medium",
+          "listeningSkill": "figurative language"
+        },
+        {
+          "id": "A07_Q03",
+          "number": 3,
+          "noteContext": "Duration of symptoms: Past ___ to ___ weeks (initially attributed to baby blues)",
+          "answer": "2 to 3",
+          "acceptableAnswers": ["2 to 3", "two to three", "2-3"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A07_Q04",
+          "number": 4,
+          "noteContext": "Sleep: Cannot sleep even when ___",
+          "answer": "baby sleeps",
+          "acceptableAnswers": ["baby sleeps", "Oliver sleeps", "the baby sleeps"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A07_Q05",
+          "number": 5,
+          "noteContext": "Social withdrawal: Stopped answering friends' ___",
+          "answer": "messages",
+          "acceptableAnswers": ["messages", "texts"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A07_Q06",
+          "number": 6,
+          "noteContext": "Family support: Mother offered to ___. Patient declined – doesn't want her to see her like this.",
+          "answer": "come and stay",
+          "acceptableAnswers": ["come and stay", "stay", "come stay", "visit and stay"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A07_Q07",
+          "number": 7,
+          "noteContext": "Appetite: Poor – ___ quite a bit of weight",
+          "answer": "lost",
+          "acceptableAnswers": ["lost", "losing"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A07_Q08",
+          "number": 8,
+          "noteContext": "Safety assessment: No thoughts of self-harm, but believes Oliver would be ___ without her",
+          "answer": "better off",
+          "acceptableAnswers": ["better off", "better off without her", "better off without me"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A07_Q09",
+          "number": 9,
+          "noteContext": "Diagnosis: Health visitor identifies likely ___ depression",
+          "answer": "postnatal",
+          "acceptableAnswers": ["postnatal", "post-natal", "postpartum"],
+          "difficulty": "easy",
+          "listeningSkill": "medical terminology"
+        },
+        {
+          "id": "A07_Q10",
+          "number": 10,
+          "noteContext": "Treatment options discussed: talking therapy, ___, or combination",
+          "answer": "medication",
+          "acceptableAnswers": ["medication", "medicine", "antidepressants"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A07_Q11",
+          "number": 11,
+          "noteContext": "Support group: Local ___ support group available (patient not ready yet)",
+          "answer": "postnatal",
+          "acceptableAnswers": ["postnatal", "post-natal", "mums"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A07_Q12",
+          "number": 12,
+          "noteContext": "Immediate plan: GP appointment this ___. Health visitor to increase visit frequency.",
+          "answer": "week",
+          "acceptableAnswers": ["week", "this week"],
+          "difficulty": "easy",
+          "listeningSkill": "time recognition"
+        }
+      ]
+    },
+    {
+      "id": "partA_08",
+      "title": "Chronic Wound Assessment – Diabetic Foot Ulcer",
+      "part": "A",
+      "audioFile": "partA_08_diabetic_foot.mp3",
+      "duration": "5:00",
+      "setting": "Tissue viability clinic",
+      "speakers": {
+        "nurse": "Tom (Tissue Viability Nurse)",
+        "patient": "Mr Winston Clarke, 67 years old"
+      },
+      "scenario": "Assessment of non-healing foot ulcer. Patient has 15-year history of Type 2 diabetes.",
+      "noteTemplate": {
+        "heading": "TISSUE VIABILITY ASSESSMENT",
+        "subheading": "Patient: Winston Clarke, 67 | DM2 – 15 years",
+        "sections": [
+          {
+            "title": "Referral",
+            "content": "District nurse referral – non-healing right foot ulcer"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "A08_Q01",
+          "number": 1,
+          "noteContext": "Wound duration: First noticed approximately ___ weeks ago",
+          "answer": "8",
+          "acceptableAnswers": ["8", "eight"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A08_Q02",
+          "number": 2,
+          "noteContext": "Likely cause: New ___ that were too tight",
+          "answer": "shoes",
+          "acceptableAnswers": ["shoes"],
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A08_Q03",
+          "number": 3,
+          "noteContext": "Wound measurements: Approximately ___ cm × 2 cm",
+          "answer": "3",
+          "acceptableAnswers": ["3", "three"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A08_Q04",
+          "number": 4,
+          "noteContext": "Wound location: Plantar surface beneath first ___ head",
+          "answer": "metatarsal",
+          "acceptableAnswers": ["metatarsal"],
+          "difficulty": "hard",
+          "listeningSkill": "medical terminology"
+        },
+        {
+          "id": "A08_Q05",
+          "number": 5,
+          "noteContext": "Wound bed: Mix of granulation tissue and ___ areas. No signs of infection.",
+          "answer": "sloughy",
+          "acceptableAnswers": ["sloughy", "slough"],
+          "difficulty": "hard",
+          "listeningSkill": "medical terminology"
+        },
+        {
+          "id": "A08_Q06",
+          "number": 6,
+          "noteContext": "Neuropathy: Patient reports numbness in feet for ___ years (peripheral neuropathy)",
+          "answer": "a few",
+          "acceptableAnswers": ["a few", "few", "several"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A08_Q07",
+          "number": 7,
+          "noteContext": "Vascular assessment: ABPI right side = ___",
+          "answer": "0.7",
+          "acceptableAnswers": ["0.7", "nought point seven", "zero point seven"],
+          "difficulty": "medium",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A08_Q08",
+          "number": 8,
+          "noteContext": "HbA1c (4 months ago): ___ mmol/mol – poorly controlled",
+          "answer": "72",
+          "acceptableAnswers": ["72", "seventy-two"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A08_Q09",
+          "number": 9,
+          "noteContext": "Diabetes medications: Currently on ___ different tablets",
+          "answer": "3",
+          "acceptableAnswers": ["3", "three"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A08_Q10",
+          "number": 10,
+          "noteContext": "Wound management: Debridement of sloughy tissue + ___ dressing applied",
+          "answer": "foam",
+          "acceptableAnswers": ["foam", "a foam"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "A08_Q11",
+          "number": 11,
+          "noteContext": "Dressing change frequency: Every ___ to ___ days",
+          "answer": "2 to 3",
+          "acceptableAnswers": ["2 to 3", "two to three", "2-3"],
+          "difficulty": "easy",
+          "listeningSkill": "number recognition"
+        },
+        {
+          "id": "A08_Q12",
+          "number": 12,
+          "noteContext": "Critical intervention: Offloading via therapeutic ___",
+          "answer": "shoe",
+          "acceptableAnswers": ["shoe", "shoes", "footwear"],
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        }
+      ]
+    },
+    {
+      "id": "partB_09",
+      "title": "Infection Control in Hospital Settings",
+      "part": "B",
+      "audioFile": "partB_09_infection_control.mp3",
+      "duration": "4:30",
+      "setting": "Lecture hall / educational setting",
+      "speakers": {
+        "presenter": "Nurse educator (female)"
+      },
+      "scenario": "Talk to nursing students on current best practices in hospital infection control.",
+      "questions": [
+        {
+          "id": "B09_Q01",
+          "number": 1,
+          "questionText": "According to the speaker, approximately how many hospital patients worldwide are affected by healthcare-associated infections?",
+          "options": {
+            "A": "1 in 5",
+            "B": "1 in 10",
+            "C": "1 in 20",
+            "D": "1 in 50"
+          },
+          "correctAnswer": "B",
+          "difficulty": "easy",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B09_Q02",
+          "number": 2,
+          "questionText": "What does the speaker say is the typical hand hygiene compliance rate in most hospitals?",
+          "options": {
+            "A": "About 20%",
+            "B": "About 40%",
+            "C": "About 60%",
+            "D": "About 80%"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B09_Q03",
+          "number": 3,
+          "questionText": "The speaker identifies several barriers to hand hygiene compliance. Which does she describe as a 'critical' barrier?",
+          "options": {
+            "A": "Lack of training for new staff",
+            "B": "Cost of hand hygiene products",
+            "C": "Senior staff modelling poor practice",
+            "D": "Insufficient time between patients"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B09_Q04",
+          "number": 4,
+          "questionText": "According to the speaker, what is the single most effective intervention for reducing catheter-related urinary tract infections?",
+          "options": {
+            "A": "Using antimicrobial catheters",
+            "B": "Daily review of whether the catheter is still needed",
+            "C": "Applying strict insertion bundles",
+            "D": "Training nurses in aseptic technique"
+          },
+          "correctAnswer": "B",
+          "difficulty": "hard",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B09_Q05",
+          "number": 5,
+          "questionText": "The speaker mentions antimicrobial stewardship as a nursing responsibility. This does NOT include:",
+          "options": {
+            "A": "Questioning whether an antibiotic is indicated",
+            "B": "Prescribing alternative antibiotics",
+            "C": "Ensuring doses are given on time",
+            "D": "Educating patients about completing treatment"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "negative detail"
+        },
+        {
+          "id": "B09_Q06",
+          "number": 6,
+          "questionText": "What is the speaker's main message to the nursing students?",
+          "options": {
+            "A": "Infection control is primarily the responsibility of specialist teams",
+            "B": "Technology will eventually solve most infection control problems",
+            "C": "Every healthcare worker shares responsibility for infection prevention",
+            "D": "New antibiotics are the most promising solution to HCAIs"
+          },
+          "correctAnswer": "C",
+          "difficulty": "easy",
+          "listeningSkill": "main idea / gist"
+        }
+      ]
+    },
+    {
+      "id": "partB_10",
+      "title": "Managing Chronic Pain in Older Adults",
+      "part": "B",
+      "audioFile": "partB_10_chronic_pain_elderly.mp3",
+      "duration": "4:30",
+      "setting": "Nursing conference",
+      "speakers": {
+        "presenter": "Pain management specialist nurse (male)"
+      },
+      "scenario": "Conference presentation on challenges and best practices of chronic pain management in elderly patients.",
+      "questions": [
+        {
+          "id": "B10_Q01",
+          "number": 1,
+          "questionText": "What percentage of adults over 65 does the speaker say experience persistent pain?",
+          "options": {
+            "A": "25 to 40 percent",
+            "B": "50 to 75 percent",
+            "C": "30 to 50 percent",
+            "D": "75 to 90 percent"
+          },
+          "correctAnswer": "B",
+          "difficulty": "easy",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B10_Q02",
+          "number": 2,
+          "questionText": "The speaker recommends the Abbey Pain Scale for patients with dementia. What does this tool assess?",
+          "options": {
+            "A": "Self-reported pain intensity",
+            "B": "Observable behaviours such as vocalisation and facial expression",
+            "C": "Blood pressure and heart rate changes",
+            "D": "Medication effectiveness over time"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B10_Q03",
+          "number": 3,
+          "questionText": "According to the speaker, why should NSAIDs be used with caution in the elderly?",
+          "options": {
+            "A": "They are ineffective for most types of pain",
+            "B": "They interact with all common elderly medications",
+            "C": "They carry risks of GI bleeding, renal impairment, and cardiovascular events",
+            "D": "They are only available by prescription"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B10_Q04",
+          "number": 4,
+          "questionText": "What does the speaker say should ALWAYS accompany the prescription of opioids in elderly patients?",
+          "options": {
+            "A": "An antiemetic",
+            "B": "A blood pressure monitor",
+            "C": "A laxative",
+            "D": "A falls risk assessment"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B10_Q05",
+          "number": 5,
+          "questionText": "Which non-pharmacological approach does the speaker say has been shown to be effective even in patients over 80?",
+          "options": {
+            "A": "Acupuncture",
+            "B": "Cognitive behavioural therapy",
+            "C": "TENS machines",
+            "D": "Hydrotherapy"
+          },
+          "correctAnswer": "B",
+          "difficulty": "hard",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B10_Q06",
+          "number": 6,
+          "questionText": "What does the speaker describe as a 'fatalistic view' that needs to change?",
+          "options": {
+            "A": "That opioids are too dangerous for elderly patients",
+            "B": "That chronic pain always requires medication",
+            "C": "That pain is an inevitable part of ageing",
+            "D": "That elderly patients cannot describe their pain accurately"
+          },
+          "correctAnswer": "C",
+          "difficulty": "easy",
+          "listeningSkill": "main idea"
+        }
+      ]
+    },
+    {
+      "id": "partB_11",
+      "title": "Childhood Obesity: A Nursing Perspective",
+      "part": "B",
+      "audioFile": "partB_11_childhood_obesity.mp3",
+      "duration": "4:30",
+      "setting": "Primary care nursing conference",
+      "speakers": {
+        "presenter": "Public health nurse (female)"
+      },
+      "scenario": "Presentation on the role of nurses in addressing childhood obesity.",
+      "questions": [
+        {
+          "id": "B11_Q01",
+          "number": 1,
+          "questionText": "By age eleven, what proportion of children does the speaker say are overweight or obese in England?",
+          "options": {
+            "A": "One in five",
+            "B": "One in four",
+            "C": "More than one in three",
+            "D": "Nearly one in two"
+          },
+          "correctAnswer": "C",
+          "difficulty": "easy",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B11_Q02",
+          "number": 2,
+          "questionText": "According to the speaker, what is the PRIMARY reason health professionals find it difficult to address childhood obesity?",
+          "options": {
+            "A": "Lack of effective treatments",
+            "B": "Weight is a deeply personal and sensitive subject",
+            "C": "Insufficient training in nutrition",
+            "D": "Conflicting dietary guidelines"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B11_Q03",
+          "number": 3,
+          "questionText": "The speaker recommends 'Motivational Interviewing.' What approach does this use?",
+          "options": {
+            "A": "Providing written meal plans and exercise targets",
+            "B": "Setting strict goals with regular weigh-ins",
+            "C": "Open-ended questions, reflective listening, and affirmations",
+            "D": "Group education sessions with other families"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B11_Q04",
+          "number": 4,
+          "questionText": "According to the speaker, children from the most deprived areas are how much more likely to be obese?",
+          "options": {
+            "A": "50% more likely",
+            "B": "Twice as likely",
+            "C": "Three times as likely",
+            "D": "Four times as likely"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B11_Q05",
+          "number": 5,
+          "questionText": "The speaker says weight management programmes are most effective when they:",
+          "options": {
+            "A": "Focus on the child's diet exclusively",
+            "B": "Are delivered in schools",
+            "C": "Involve the whole family",
+            "D": "Include medication when appropriate"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B11_Q06",
+          "number": 6,
+          "questionText": "What THREE roles does the speaker identify for nurses in addressing childhood obesity?",
+          "options": {
+            "A": "Prescribing, monitoring, and referring",
+            "B": "Identifying at-risk children, engaging families, and advocating for broader changes",
+            "C": "Measuring, diagnosing, and treating",
+            "D": "Educating, counselling, and following up"
+          },
+          "correctAnswer": "B",
+          "difficulty": "hard",
+          "listeningSkill": "summary / synthesis"
+        }
+      ]
+    },
+    {
+      "id": "partB_12",
+      "title": "Nurse-Led Smoking Cessation Programmes",
+      "part": "B",
+      "audioFile": "partB_12_smoking_cessation.mp3",
+      "duration": "4:30",
+      "setting": "Practice nurse education session",
+      "speakers": {
+        "presenter": "Respiratory nurse specialist (male)"
+      },
+      "scenario": "Presentation on implementing effective smoking cessation interventions.",
+      "questions": [
+        {
+          "id": "B12_Q01",
+          "number": 1,
+          "questionText": "By what percentage does the speaker say nursing-led interventions increase the likelihood of quitting?",
+          "options": {
+            "A": "15 percent",
+            "B": "22 percent",
+            "C": "29 percent",
+            "D": "40 percent"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B12_Q02",
+          "number": 2,
+          "questionText": "The 'Very Brief Advice' model has three components. What are they?",
+          "options": {
+            "A": "Assess, Advise, Arrange",
+            "B": "Ask, Advise, Act",
+            "C": "Acknowledge, Address, Assist",
+            "D": "Ask, Assist, Affirm"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B12_Q03",
+          "number": 3,
+          "questionText": "According to the speaker, which is the most effective single pharmacological agent for smoking cessation?",
+          "options": {
+            "A": "Nicotine patches",
+            "B": "Nicotine gum",
+            "C": "Bupropion",
+            "D": "Varenicline"
+          },
+          "correctAnswer": "D",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B12_Q04",
+          "number": 4,
+          "questionText": "How does the speaker describe the effectiveness of combination therapy (e.g., patch + mouth spray) compared to single-product NRT?",
+          "options": {
+            "A": "Slightly less effective",
+            "B": "Equally effective",
+            "C": "More effective",
+            "D": "Only effective for heavy smokers"
+          },
+          "correctAnswer": "C",
+          "difficulty": "easy",
+          "listeningSkill": "comparison"
+        },
+        {
+          "id": "B12_Q05",
+          "number": 5,
+          "questionText": "Patients who receive BOTH medication AND behavioural support are how many times more likely to quit than those who try unaided?",
+          "options": {
+            "A": "One and a half to two times",
+            "B": "Two to three times",
+            "C": "Three to four times",
+            "D": "Five to six times"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B12_Q06",
+          "number": 6,
+          "questionText": "What is the speaker's overall message about smoking cessation and nursing practice?",
+          "options": {
+            "A": "Only specialist nurses should provide smoking cessation advice",
+            "B": "E-cigarettes should be the first-line recommendation",
+            "C": "Every patient contact is an opportunity to address smoking",
+            "D": "Pharmacotherapy is more important than behavioural support"
+          },
+          "correctAnswer": "C",
+          "difficulty": "easy",
+          "listeningSkill": "main idea / gist"
+        }
+      ]
+    },
+    {
+      "id": "partB_13",
+      "title": "Palliative Care: Communication and Comfort",
+      "part": "B",
+      "audioFile": "partB_13_palliative_care.mp3",
+      "duration": "4:45",
+      "setting": "Multidisciplinary team meeting / education session",
+      "speakers": {
+        "presenter": "Palliative care nurse specialist (female)"
+      },
+      "scenario": "Talk on the nursing role in palliative care communication and symptom management.",
+      "questions": [
+        {
+          "id": "B13_Q01",
+          "number": 1,
+          "questionText": "What did the patient quoted at the beginning of the talk say she was afraid of?",
+          "options": {
+            "A": "Being in pain",
+            "B": "Being alone",
+            "C": "Dying badly",
+            "D": "Losing her independence"
+          },
+          "correctAnswer": "C",
+          "difficulty": "easy",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B13_Q02",
+          "number": 2,
+          "questionText": "According to the speaker, what has early palliative care been shown to do in some studies?",
+          "options": {
+            "A": "Cure terminal illnesses",
+            "B": "Replace the need for curative treatment",
+            "C": "Extend survival",
+            "D": "Eliminate the need for hospitalisation"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B13_Q03",
+          "number": 3,
+          "questionText": "What skill does the speaker say is 'one of the most valuable' for nurses in palliative care?",
+          "options": {
+            "A": "The ability to provide medical explanations",
+            "B": "The ability to sit with uncertainty and distress",
+            "C": "The ability to manage complex medications",
+            "D": "The ability to coordinate multidisciplinary teams"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B13_Q04",
+          "number": 4,
+          "questionText": "Why does the speaker say advance care planning conversations should happen early?",
+          "options": {
+            "A": "Legal requirements mandate early documentation",
+            "B": "Families need time to agree among themselves",
+            "C": "The patient needs to be well enough to participate fully",
+            "D": "Hospital policies require it within 48 hours of admission"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific reasoning"
+        },
+        {
+          "id": "B13_Q05",
+          "number": 5,
+          "questionText": "For managing breathlessness, which NON-pharmacological intervention does the speaker mention first?",
+          "options": {
+            "A": "Oxygen therapy",
+            "B": "A handheld fan",
+            "C": "Relaxation music",
+            "D": "Chest physiotherapy"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B13_Q06",
+          "number": 6,
+          "questionText": "What does the speaker say about using opioids for breathlessness?",
+          "options": {
+            "A": "They should only be used as a last resort",
+            "B": "They are not effective for breathlessness",
+            "C": "Used appropriately, they do not shorten life",
+            "D": "They should be avoided in palliative patients"
+          },
+          "correctAnswer": "C",
+          "difficulty": "hard",
+          "listeningSkill": "specific detail"
+        }
+      ]
+    },
+    {
+      "id": "partB_14",
+      "title": "Medication Safety and Error Prevention",
+      "part": "B",
+      "audioFile": "partB_14_medication_safety.mp3",
+      "duration": "4:30",
+      "setting": "Induction session for newly qualified nurses",
+      "speakers": {
+        "presenter": "Patient safety lead nurse (male)"
+      },
+      "scenario": "Presentation on medication errors, their causes, and strategies for prevention.",
+      "questions": [
+        {
+          "id": "B14_Q01",
+          "number": 1,
+          "questionText": "How many deaths per year in the UK does the speaker say are caused by medication errors?",
+          "options": {
+            "A": "Over 200",
+            "B": "Over 500",
+            "C": "Over 700",
+            "D": "Over 1,000"
+          },
+          "correctAnswer": "C",
+          "difficulty": "easy",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B14_Q02",
+          "number": 2,
+          "questionText": "According to the speaker, what causes the majority of medication errors?",
+          "options": {
+            "A": "Staff carelessness",
+            "B": "Inadequate training",
+            "C": "System failures and human factors",
+            "D": "Understaffing"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B14_Q03",
+          "number": 3,
+          "questionText": "What does 'APINCH' stand for in the context of high-risk medications?",
+          "options": {
+            "A": "Antibiotics, Paracetamol, Insulin, Narcotics, Calcium, Heparin",
+            "B": "Anti-infectives, Potassium, Insulin, Narcotics, Chemotherapy, Heparin",
+            "C": "Analgesics, Psychotropics, Immunosuppressants, NSAIDs, Corticosteroids, Hormones",
+            "D": "Anticoagulants, Pressors, Inotropes, Neuromuscular blockers, Cytotoxics, Hypoglycaemics"
+          },
+          "correctAnswer": "B",
+          "difficulty": "hard",
+          "listeningSkill": "specific terminology"
+        },
+        {
+          "id": "B14_Q04",
+          "number": 4,
+          "questionText": "Beyond the traditional 'five rights,' which additional check does the speaker suggest?",
+          "options": {
+            "A": "Right cost",
+            "B": "Right pharmacy",
+            "C": "Right reason",
+            "D": "Right storage"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B14_Q05",
+          "number": 5,
+          "questionText": "According to research cited by the speaker, each interruption during medication preparation does what to the risk of error?",
+          "options": {
+            "A": "Increases it by 25%",
+            "B": "Increases it by 50%",
+            "C": "Doubles it",
+            "D": "Triples it"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B14_Q06",
+          "number": 6,
+          "questionText": "What does the speaker identify as a risk introduced by electronic prescribing technology?",
+          "options": {
+            "A": "System crashes during critical moments",
+            "B": "Alert fatigue leading to overriding warnings",
+            "C": "Increased time needed for prescribing",
+            "D": "Difficulty reading digital prescriptions"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        }
+      ]
+    },
+    {
+      "id": "partB_15",
+      "title": "Mental Health First Aid for Nursing Staff",
+      "part": "B",
+      "audioFile": "partB_15_staff_mental_health.mp3",
+      "duration": "4:30",
+      "setting": "Hospital staff wellbeing session",
+      "speakers": {
+        "presenter": "Occupational health nurse (female)"
+      },
+      "scenario": "Presentation on recognising and responding to mental health issues among nursing colleagues.",
+      "questions": [
+        {
+          "id": "B15_Q01",
+          "number": 1,
+          "questionText": "According to the RCN survey cited by the speaker, what percentage of nursing staff reported feeling unwell due to work-related stress?",
+          "options": {
+            "A": "40 percent",
+            "B": "50 percent",
+            "C": "60 percent",
+            "D": "70 percent"
+          },
+          "correctAnswer": "C",
+          "difficulty": "easy",
+          "listeningSkill": "specific statistic"
+        },
+        {
+          "id": "B15_Q02",
+          "number": 2,
+          "questionText": "The speaker lists signs of mental health distress in colleagues. Which is NOT one she mentions?",
+          "options": {
+            "A": "Increased irritability",
+            "B": "Arriving late regularly",
+            "C": "Requesting more overtime",
+            "D": "Making uncharacteristic errors"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "negative detail"
+        },
+        {
+          "id": "B15_Q03",
+          "number": 3,
+          "questionText": "In the mental health first aid approach, what does the speaker say you should do FIRST?",
+          "options": {
+            "A": "Report your concerns to management",
+            "B": "Approach the person privately",
+            "C": "Suggest professional counselling",
+            "D": "Document the behaviour changes"
+          },
+          "correctAnswer": "B",
+          "difficulty": "medium",
+          "listeningSkill": "sequence / process"
+        },
+        {
+          "id": "B15_Q04",
+          "number": 4,
+          "questionText": "According to the speaker, what is a major barrier preventing nurses from seeking help for mental health issues?",
+          "options": {
+            "A": "Lack of available services",
+            "B": "Cost of therapy",
+            "C": "Fear of being deemed unfit to practise",
+            "D": "Not knowing where to find help"
+          },
+          "correctAnswer": "C",
+          "difficulty": "medium",
+          "listeningSkill": "specific detail"
+        },
+        {
+          "id": "B15_Q05",
+          "number": 5,
+          "questionText": "What does the speaker mean when she says 'You cannot yoga your way out of chronic understaffing'?",
+          "options": {
+            "A": "Yoga is not an effective stress management technique",
+            "B": "Individual self-care is not sufficient when problems are systemic",
+            "C": "Nurses should not practise yoga during work hours",
+            "D": "Management should provide yoga classes instead of addressing understaffing"
+          },
+          "correctAnswer": "B",
+          "difficulty": "hard",
+          "listeningSkill": "inference / interpretation"
+        },
+        {
+          "id": "B15_Q06",
+          "number": 6,
+          "questionText": "What is the speaker's call to action at the end of the presentation?",
+          "options": {
+            "A": "Sign up for a mental health first aid course",
+            "B": "Report any colleague showing signs of distress to HR",
+            "C": "Ask a colleague you've been worried about if they are okay",
+            "D": "Lobby management for better working conditions"
+          },
+          "correctAnswer": "C",
+          "difficulty": "easy",
+          "listeningSkill": "main idea / conclusion"
+        }
+      ]
+    }
+  ]
+}
