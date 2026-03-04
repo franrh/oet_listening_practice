@@ -73,7 +73,7 @@ export default function App() {
         borderTop: `1px solid ${COLORS.grayMid}`,
         background: COLORS.white,
       }}>
-        Universidad Anáhuac Online · OET Nursing Listening Practice · {new Date().getFullYear()}
+        Anáhuac Online · OET Nursing Listening Practice · {new Date().getFullYear()}
       </footer>
     </div>
   );
